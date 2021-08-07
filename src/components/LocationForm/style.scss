@@ -1,0 +1,39 @@
+.locationForm {
+  display: flex;
+  flex-direction: column;
+  &__row {
+    width: 100%;
+    display: flex;
+    margin: 0.5rem 0;
+    label {
+      width: 50%;
+      font-weight: 500;
+    }
+    input,
+    select {
+      width: 50%;
+      background-color: rgba(255, 255, 255, 0.329);
+      padding: 0.5rem 0.625rem;
+      outline: none;
+      border: 1px solid rgb(20, 20, 20);
+    }
+  }
+  &__map {
+    width: 50% !important;
+    max-width: 50% !important;
+    min-width: unset;
+  }
+  &__footer {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__btn {
+    background-color: rgb(94, 93, 93) !important;
+    color: white !important;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: capitalize !important;
+    padding: 0.5rem 0.75rem;
+  }
+}
