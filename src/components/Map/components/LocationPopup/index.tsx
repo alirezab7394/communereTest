@@ -1,4 +1,3 @@
-import { LatLngLiteral } from "leaflet";
 import { Popup } from "react-leaflet";
 import Button from "src/components/Widgets/Button";
 import { LocationProps } from "src/interfaces/Location";

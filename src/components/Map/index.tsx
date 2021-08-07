@@ -3,7 +3,7 @@ import { ClickEvent } from "./components/ClickEvent";
 import CustomMarker from "./components/CustomMarker";
 import LocationPopup from "./components/LocationPopup";
 import { LatLngLiteral } from "leaflet";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import { LocationProps } from "src/interfaces/Location";
 import { CSSProperties } from "react";
 import "./style.scss";
