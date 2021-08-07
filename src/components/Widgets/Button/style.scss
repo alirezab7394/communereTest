@@ -1,0 +1,77 @@
+.myCustomButtonClass {
+  padding: 18px 30px;
+  border-radius: 45px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: center;
+  color: #919ca9;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  @media screen and (max-width: 359px) {
+    padding: 12px 20px;
+  }
+  img,
+  svg {
+    width: 1.25em;
+    height: 1.25em;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  &.white {
+    background-color: #ffffff;
+    color: #919ca9;
+  }
+  &.iconButton {
+    border-radius: 50%;
+    padding: unset !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+  }
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.322);
+  }
+  &:active {
+    background-color: #fafafa;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.37);
+  }
+  &--ripple {
+    display: block;
+    position: absolute;
+    background: lighten(rgb(201, 186, 186), 18%);
+    border-radius: 100%;
+    transform: scale(0);
+  }
+}
+@keyframes rippleAnimation1 {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+@keyframes rippleAnimation2 {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
