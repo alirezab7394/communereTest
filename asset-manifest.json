@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/communereTest/static/css/main.5d367fce.chunk.css",
+    "main.js": "/communereTest/static/js/main.52a80347.chunk.js",
+    "main.js.map": "/communereTest/static/js/main.52a80347.chunk.js.map",
+    "runtime-main.js": "/communereTest/static/js/runtime-main.2576ad99.js",
+    "runtime-main.js.map": "/communereTest/static/js/runtime-main.2576ad99.js.map",
+    "static/css/2.da98c186.chunk.css": "/communereTest/static/css/2.da98c186.chunk.css",
+    "static/js/2.abf7018f.chunk.js": "/communereTest/static/js/2.abf7018f.chunk.js",
+    "static/js/2.abf7018f.chunk.js.map": "/communereTest/static/js/2.abf7018f.chunk.js.map",
+    "static/js/3.d5d94b99.chunk.js": "/communereTest/static/js/3.d5d94b99.chunk.js",
+    "static/js/3.d5d94b99.chunk.js.map": "/communereTest/static/js/3.d5d94b99.chunk.js.map",
+    "index.html": "/communereTest/index.html",
+    "static/css/2.da98c186.chunk.css.map": "/communereTest/static/css/2.da98c186.chunk.css.map",
+    "static/css/main.5d367fce.chunk.css.map": "/communereTest/static/css/main.5d367fce.chunk.css.map",
+    "static/js/2.abf7018f.chunk.js.LICENSE.txt": "/communereTest/static/js/2.abf7018f.chunk.js.LICENSE.txt",
+    "static/media/close.9c6367db.svg": "/communereTest/static/media/close.9c6367db.svg",
+    "static/media/location_icon.ab799087.svg": "/communereTest/static/media/location_icon.ab799087.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2576ad99.js",
+    "static/css/2.da98c186.chunk.css",
+    "static/js/2.abf7018f.chunk.js",
+    "static/css/main.5d367fce.chunk.css",
+    "static/js/main.52a80347.chunk.js"
+  ]
+}
